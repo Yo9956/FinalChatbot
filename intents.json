@@ -1,0 +1,135 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "Email dean",
+        "patterns": [
+          
+          "What is the email of the dean of the college?"
+        ],
+        "responses": [
+          
+          "salshibany@qu.edu.sa"
+        ]
+      },
+      {
+        "tag": "cntact with Student affairs",
+        "patterns": [
+          
+          "What are the points of contact with student affairs computer college?"
+        ],
+        "responses": [
+          
+          "email: sau.coc@qu.edu.sa tel: 0163012711"
+        ]
+      },
+      {
+        "tag": "Absenteeism rate",
+        "patterns": [
+          
+          "Absenteeism rate?",
+          "When is a student denied due to absence?"
+        ],
+        "responses": [
+          
+          "If the absenteeism rate exceeds 25% of the attendance rate."
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          
+          "What are the most prominent student activities that take place within the College of Computing this term?"
+        ],
+        "responses": [
+          "My university is programming, side quest"
+        ]
+      },
+      {
+        "tag": "delete term",
+        "patterns": [
+          
+          "when we can delete a term ?"
+        ],
+        "responses": [
+          
+          "you can delete a term in 2022/09/15."
+        ]
+      },
+      {
+        "tag":"Term postponement",
+        "patterns":[
+        "When is the semester adjourned?",
+        "Postponement of the semester?",
+        "Term postponement"],
+        "responses":[
+          "Postponing the semester on 3/3/2023"
+        ]
+      },
+      {
+        "tag": "droping course",
+        "patterns": [
+          
+          "When does the droping course close?",
+          "Dates of droping course"
+        ],
+        "responses": [
+          
+          "you can droping course until 2022/09/15."
+        ]
+      },
+      {
+        "tag": "holiday",
+        "patterns": [
+          
+          "When is the National Day holiday?"
+        ],
+        "responses": [
+          
+          "Saturday, September 23, 2023"
+        ]
+      },
+      {
+        "tag": "deletion and addition course",
+        "patterns": [
+          
+          "Dates of deletion and addition course?"
+        ],
+        "responses": [
+          
+          "Monday, Feb 12, 2023"
+        ]
+      }
+    ]
+  }
+  
